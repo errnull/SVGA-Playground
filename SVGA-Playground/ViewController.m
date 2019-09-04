@@ -42,7 +42,7 @@
     self.player1.delegate = self;
     self.player1.loops = 0;
     [self.view addSubview:self.player1];
-    [parser parseWithNamed:@"Walkthrough"
+    [parser parseWithNamed:@"xxxxx"
                   inBundle:nil
            completionBlock:^(SVGAVideoEntity * _Nonnull videoItem) {
                
@@ -55,7 +55,7 @@
     self.player2.delegate = self;
     self.player2.loops = 0;
     [self.view addSubview:self.player2];
-    [parser parseWithNamed:@"Walkthrough"
+    [parser parseWithNamed:@"xxxxx"
                   inBundle:nil
            completionBlock:^(SVGAVideoEntity * _Nonnull videoItem) {
                
@@ -68,7 +68,7 @@
     self.player3.delegate = self;
     self.player3.loops = 0;
     [self.view addSubview:self.player3];
-    [parser parseWithNamed:@"Walkthrough"
+    [parser parseWithNamed:@"xxxx"
                   inBundle:nil
            completionBlock:^(SVGAVideoEntity * _Nonnull videoItem) {
                
