@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		716C1062231FC2C00095A1C9 /* Walkthrough.svga in Resources */ = {isa = PBXBuildFile; fileRef = 716C1061231FC2C00095A1C9 /* Walkthrough.svga */; };
 		71EA56E4231D0F9000695B01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EA56E3231D0F9000695B01 /* AppDelegate.m */; };
 		71EA56E7231D0F9000695B01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EA56E6231D0F9000695B01 /* ViewController.m */; };
 		71EA56EA231D0F9000695B01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71EA56E8231D0F9000695B01 /* Main.storyboard */; };
 		71EA56EC231D0F9200695B01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71EA56EB231D0F9200695B01 /* Assets.xcassets */; };
 		71EA56EF231D0F9200695B01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71EA56ED231D0F9200695B01 /* LaunchScreen.storyboard */; };
 		71EA56F2231D0F9200695B01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EA56F1231D0F9200695B01 /* main.m */; };
+		71EA56FA231D186900695B01 /* xxxx.svga in Resources */ = {isa = PBXBuildFile; fileRef = 71EA56F9231D186900695B01 /* xxxx.svga */; };
+		71EA56FC231D1C0800695B01 /* xxxxx.svga in Resources */ = {isa = PBXBuildFile; fileRef = 71EA56FB231D1C0700695B01 /* xxxxx.svga */; };
+		C43653D5B065F7613667C9B4 /* libPods-SVGA-Playground.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8FF58F7FCA82A3F00AE7C21 /* libPods-SVGA-Playground.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D227CE94A1F839710787202 /* Pods-SVGA-Playground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGA-Playground.release.xcconfig"; path = "Target Support Files/Pods-SVGA-Playground/Pods-SVGA-Playground.release.xcconfig"; sourceTree = "<group>"; };
+		28ED02C9454D351EB106AFCC /* Pods-SVGA-Playground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGA-Playground.debug.xcconfig"; path = "Target Support Files/Pods-SVGA-Playground/Pods-SVGA-Playground.debug.xcconfig"; sourceTree = "<group>"; };
+		716C1061231FC2C00095A1C9 /* Walkthrough.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = Walkthrough.svga; sourceTree = "<group>"; };
 		71EA56DF231D0F9000695B01 /* SVGA-Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SVGA-Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71EA56E2231D0F9000695B01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		71EA56E3231D0F9000695B01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +33,9 @@
 		71EA56EE231D0F9200695B01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71EA56F0231D0F9200695B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71EA56F1231D0F9200695B01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71EA56F9231D186900695B01 /* xxxx.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = xxxx.svga; sourceTree = "<group>"; };
+		71EA56FB231D1C0700695B01 /* xxxxx.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = xxxxx.svga; sourceTree = "<group>"; };
+		F8FF58F7FCA82A3F00AE7C21 /* libPods-SVGA-Playground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SVGA-Playground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C43653D5B065F7613667C9B4 /* libPods-SVGA-Playground.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F10E1F0D0B5BBF8B5914B00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28ED02C9454D351EB106AFCC /* Pods-SVGA-Playground.debug.xcconfig */,
+				1D227CE94A1F839710787202 /* Pods-SVGA-Playground.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		71EA56D6231D0F9000695B01 = {
 			isa = PBXGroup;
 			children = (
 				71EA56E1231D0F9000695B01 /* SVGA-Playground */,
 				71EA56E0231D0F9000695B01 /* Products */,
+				3F10E1F0D0B5BBF8B5914B00 /* Pods */,
+				E1784F4E79131FBE21CE19FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +80,7 @@
 		71EA56E1231D0F9000695B01 /* SVGA-Playground */ = {
 			isa = PBXGroup;
 			children = (
+				71EA56F8231D186400695B01 /* resource */,
 				71EA56E2231D0F9000695B01 /* AppDelegate.h */,
 				71EA56E3231D0F9000695B01 /* AppDelegate.m */,
 				71EA56E5231D0F9000695B01 /* ViewController.h */,
@@ -71,6 +94,24 @@
 			path = "SVGA-Playground";
 			sourceTree = "<group>";
 		};
+		71EA56F8231D186400695B01 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				716C1061231FC2C00095A1C9 /* Walkthrough.svga */,
+				71EA56FB231D1C0700695B01 /* xxxxx.svga */,
+				71EA56F9231D186900695B01 /* xxxx.svga */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		E1784F4E79131FBE21CE19FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8FF58F7FCA82A3F00AE7C21 /* libPods-SVGA-Playground.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +119,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71EA56F5231D0F9200695B01 /* Build configuration list for PBXNativeTarget "SVGA-Playground" */;
 			buildPhases = (
+				1E3908BE2093C8790317CEF1 /* [CP] Check Pods Manifest.lock */,
 				71EA56DB231D0F9000695B01 /* Sources */,
 				71EA56DC231D0F9000695B01 /* Frameworks */,
 				71EA56DD231D0F9000695B01 /* Resources */,
@@ -127,13 +169,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71EA56FA231D186900695B01 /* xxxx.svga in Resources */,
+				71EA56FC231D1C0800695B01 /* xxxxx.svga in Resources */,
 				71EA56EF231D0F9200695B01 /* LaunchScreen.storyboard in Resources */,
 				71EA56EC231D0F9200695B01 /* Assets.xcassets in Resources */,
 				71EA56EA231D0F9000695B01 /* Main.storyboard in Resources */,
+				716C1062231FC2C00095A1C9 /* Walkthrough.svga in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E3908BE2093C8790317CEF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SVGA-Playground-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		71EA56DB231D0F9000695B01 /* Sources */ = {
@@ -282,11 +352,13 @@
 		};
 		71EA56F6231D0F9200695B01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28ED02C9454D351EB106AFCC /* Pods-SVGA-Playground.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MNKS4WL358;
 				INFOPLIST_FILE = "SVGA-Playground/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +371,13 @@
 		};
 		71EA56F7231D0F9200695B01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D227CE94A1F839710787202 /* Pods-SVGA-Playground.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MNKS4WL358;
 				INFOPLIST_FILE = "SVGA-Playground/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
