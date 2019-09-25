@@ -7,6 +7,7 @@
 
 #import "ViewController.h"
 #import "SVGA.h"
+#import <ZipArchive/ZipArchive.h>
 
 @interface ViewController ()<SVGAPlayerDelegate>
 
@@ -22,6 +23,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    ZipArchive *zipArchive;
     
     self.player = [[SVGAPlayer alloc] initWithFrame:CGRectMake(0, 100, 200, 200)];
     self.player.delegate = self;

@@ -3,5 +3,5 @@
 
 target 'SVGA-Playground' do
     pod 'SVGAPlayer'
-    
+    pod 'ZipArchive' , '1.4.0'
 end
